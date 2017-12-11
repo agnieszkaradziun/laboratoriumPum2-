@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_light"
+    tools:context="com.example.student.agnieszka_radziun.Main2Activity">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zabrze"
+        android:textAlignment="viewStart"
+        android:textSize="24dp"
+        android:textColor="@android:color/white"
+
+
+         />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_wb_sunny_black_24dp"
+
+
+        />
+
+
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="30 stopni celcjusza"
+     android:textColor="@android:color/white"
+     />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pamiętaj o filtrze"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Podaj miasto"
+        android:textColor="@android:color/white"
+        />
+
+    <EditText
+        android:layout_width="345dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:text="Zmień miejsce"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_margin="12dp"
+        android:id="@+id/zmien_miejsce"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:text="pokaż listę dostępnych miejsc"
+        android:textColor="@android:color/holo_blue_light" />
+
+</LinearLayout>
